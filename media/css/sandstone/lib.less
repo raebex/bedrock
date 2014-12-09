@@ -394,7 +394,7 @@
     }
 }
 
-.background-size(...) {
-    -webkit-background-size: @arguments;
-            background-size: @arguments;
+.background-size(@w, @h) {
+    -webkit-background-size: @w @h;
+            background-size: @w @h;
 }
